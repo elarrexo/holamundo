@@ -17,7 +17,7 @@ pipeline{
         NEXUS_URL = "172.16.232.160:8081"
         // Repository where we will upload the artifact
         NEXUS_REPOSITORY = "maven-releases"
-        // Jenkins credential id to authenticate to Nexus OSS
+        // Jenkins credential id to authenticate to Nexus OSS cambios
         NEXUS_CREDENTIAL_ID = "nexus"
 
         // Workfolder
